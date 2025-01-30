@@ -1,23 +1,19 @@
 package org.example;
 
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.example.github.RepositorySearchParameters;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import java.io.UncheckedIOException;
-import java.util.Map;
-import java.util.SortedMap;
-
 @RestController
 @Slf4j
+@RequiredArgsConstructor
 public class ScoringController {
 
-    @Autowired
-    ScoringService scoringService;
+    private final ScoringService scoringService;
 
     @GetMapping("/health")
     public String health() {
@@ -25,7 +21,7 @@ public class ScoringController {
     }
 
     @GetMapping("/scored-repos")
-    public Map<String, Integer> scoredRepos(RepositorySearchParameters repositorySearchParameters) {
+    public ScoredRepositoriesResult scoredRepos(RepositorySearchParameters repositorySearchParameters) {
         log.info("Received call to /scored-repos with search parameters {}", repositorySearchParameters);
 
         try {

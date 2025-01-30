@@ -1,21 +1,17 @@
 package org.example;
 
+import lombok.RequiredArgsConstructor;
 import org.example.github.Repository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
-
 @Service
+@RequiredArgsConstructor
 public class ScoreCalculator {
 
-    @Autowired
-    DateScorer dateScorer;
+    private final DateScorer dateScorer;
 
     public Integer scoreRepository(Repository repository) {
         var score = repository.getStargazers_count() + repository.getForks_count();
-        var pushedAt = new Date();
-        repository.getPushed_at();
-        return score + dateScorer.scoreDate(pushedAt);
+        return score + dateScorer.scoreDate(repository.getPushed_at());
     }
 }

@@ -11,4 +11,6 @@ public class RepositorySearchParameters {
     private Date createdAfter;
     @NonNull
     private String language;
+    @NonNull
+    private Integer page;
 }
