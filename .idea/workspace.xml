@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bb1e0e2-df25-48bf-ba5e-faef4ac53b8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/ScoredRepositoriesResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/caching/CacheInvalidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/example/util/ClockProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/resources/expected-responses/scored-repositories-page-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/resources/expected-responses/scored-repositories-page-2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/resources/expected-responses/scored-repositories-page-3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/resources/mappings/page-1-response.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/resources/mappings/page-2-response.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/resources/mappings/page-3-response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/DateScorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/DateScorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/RepositoriesTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/RepositoriesTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/ScoreCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/ScoreCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/ScoringController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/ScoringController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/ScoringService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/ScoringService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/github/GithubClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/github/GithubClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/github/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/github/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/github/RepositorySearchParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/example/github/RepositorySearchParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/example/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/example/IntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/resources/mappings/page1response.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/resources/mappings/page2response.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/resources/mappings/page3response.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +100,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="github-repo-ratings.app.main" />
